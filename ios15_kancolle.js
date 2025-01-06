@@ -1,6 +1,6 @@
 class iOS15_kancolle {
   open(){
-    if(typeof gadgetInfo === undefined) return alart("艦これのゲームページで実行してください");
+    if(typeof gadgetInfo === undefined) return alert("艦これのゲームページで実行してください");
     alert("もし画面が切り替わった後も真っ白で表示されない場合、ブラウザのURL欄のhttps://をhttp://にしてください。");
     window.open("http:"+gadgetInfo.URL,'_blank');
   }
